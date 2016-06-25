@@ -1,0 +1,112 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		9AA2F3521D1F1345007C75C7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9AA2F3531D1F1345007C75C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9AA2F3551D1F1345007C75C7 /* clearFailures.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = clearFailures.sh; sourceTree = "<group>"; };
+		9AA2F3561D1F1345007C75C7 /* countIPAddrs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = countIPAddrs.sh; sourceTree = "<group>"; };
+		9AA2F3571D1F1345007C75C7 /* deleteNetmask.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = deleteNetmask.sh; sourceTree = "<group>"; };
+		9AA2F3581D1F1345007C75C7 /* findLargeMasks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = findLargeMasks.sh; sourceTree = "<group>"; };
+		9AA2F3591D1F1345007C75C7 /* findMilGov.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = findMilGov.sh; sourceTree = "<group>"; };
+		9AA2F35B1D1F1345007C75C7 /* Debug.pm */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = Debug.pm; sourceTree = "<group>"; };
+		9AA2F35C1D1F1345007C75C7 /* SmartXMLDBWhois.pm */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = SmartXMLDBWhois.pm; sourceTree = "<group>"; };
+		9AA2F35D1D1F1345007C75C7 /* SQLWhois.pm */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = SQLWhois.pm; sourceTree = "<group>"; };
+		9AA2F35F1D1F1345007C75C7 /* SmartXMLDBWhoisClient.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = SmartXMLDBWhoisClient.pl; sourceTree = "<group>"; };
+		9AA2F3611D1F1345007C75C7 /* SQLWhois_DBMaint.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = SQLWhois_DBMaint.pl; sourceTree = "<group>"; };
+		9AA2F3631D1F1345007C75C7 /* tableCreate.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = tableCreate.sql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9AA2F34B1D1F130B007C75C7 = {
+			isa = PBXGroup;
+			children = (
+				9AA2F3521D1F1345007C75C7 /* LICENSE */,
+				9AA2F3531D1F1345007C75C7 /* README.md */,
+				9AA2F3541D1F1345007C75C7 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA2F3541D1F1345007C75C7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2F3551D1F1345007C75C7 /* clearFailures.sh */,
+				9AA2F3561D1F1345007C75C7 /* countIPAddrs.sh */,
+				9AA2F3571D1F1345007C75C7 /* deleteNetmask.sh */,
+				9AA2F3581D1F1345007C75C7 /* findLargeMasks.sh */,
+				9AA2F3591D1F1345007C75C7 /* findMilGov.sh */,
+				9AA2F35A1D1F1345007C75C7 /* mkucenski */,
+				9AA2F35F1D1F1345007C75C7 /* SmartXMLDBWhoisClient.pl */,
+				9AA2F3611D1F1345007C75C7 /* SQLWhois_DBMaint.pl */,
+				9AA2F3631D1F1345007C75C7 /* tableCreate.sql */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9AA2F35A1D1F1345007C75C7 /* mkucenski */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2F35B1D1F1345007C75C7 /* Debug.pm */,
+				9AA2F35C1D1F1345007C75C7 /* SmartXMLDBWhois.pm */,
+				9AA2F35D1D1F1345007C75C7 /* SQLWhois.pm */,
+			);
+			path = mkucenski;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		9AA2F34C1D1F130B007C75C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 9AA2F34F1D1F130B007C75C7 /* Build configuration list for PBXProject "netWhoIsLookup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AA2F34B1D1F130B007C75C7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9AA2F3501D1F130B007C75C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9AA2F3511D1F130B007C75C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA2F34F1D1F130B007C75C7 /* Build configuration list for PBXProject "netWhoIsLookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA2F3501D1F130B007C75C7 /* Debug */,
+				9AA2F3511D1F130B007C75C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA2F34C1D1F130B007C75C7 /* Project object */;
+}
